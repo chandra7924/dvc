@@ -1,7 +1,7 @@
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
-    
+
     long_description = f.read()
 
 
@@ -12,7 +12,7 @@ AUTHOR_USER_NAME = "chandra7924"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "chandra7924@gmail.com"
 
-
+#
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
